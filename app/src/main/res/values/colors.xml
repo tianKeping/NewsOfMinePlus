@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="tv_3">#333333</color>
+    <color name="tv_6">#666666</color>
+    <color name="tv_9">#999999</color>
+
+    <color name="cancel">#b3b3b3</color>
+    <color name="background">#fdfdfe</color>
+    <color name="line">#d1d1d1</color>
+    <color name="bg_normal">#f08501</color>
+    <color name="bg_mine_member">#fdbe71</color>
+
+    <color name="bg">#f8f8f8</color>
+    <color name="bg_">#fdfdfe</color>
+
+    <color name="share_un">#FFCBCBCB</color>
+
+</resources>

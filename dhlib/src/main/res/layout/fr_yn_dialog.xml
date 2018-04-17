@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:minWidth="200dp"
+        android:textColor="#333"
+        android:textSize="15dp" />
+
+    <include layout="@layout/v_divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_l"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="#333"
+            android:textSize="17dp" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="40dp"
+            android:background="#cccccc">
+        </View>
+
+        <Button
+            android:id="@+id/btn_r"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/orange"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
